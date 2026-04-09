@@ -96,7 +96,7 @@
             "sort-key": "50-01"
         },
         {
-            "name": "Forest Flute",
+            "name": "North Dig Site - Forest Flute",
             "region": "North Dig Site",
             "category": ["North Dig Site"],
             "requires": "|Defeat Laura|",
