@@ -70,6 +70,28 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    # 7 checks
+    if is_option_enabled(multiworld, player, "enable_fight_rewards"):
+        item_config["Leaf"] = item_config["Leaf"] + 1
+        item_config["Sprout"] = item_config["Sprout"] + 1
+        item_config["Trefoil"] = item_config["Trefoil"] + 1
+        item_config["Alpha Stop Drop +"] = item_config["Alpha Stop Drop +"] + 1
+
+    # 15 checks
+    if is_option_enabled(multiworld, player, "dig_fossil"):
+        item_config["Leaf"] = item_config["Leaf"] + 2
+        item_config["Sprout"] = item_config["Sprout"] + 2
+        item_config["Trefoil"] = item_config["Trefoil"] + 1
+        item_config["Alpha Stop Drop +"] = item_config["Alpha Stop Drop +"] + 4
+
+    # 45 checks
+    if is_option_enabled(multiworld, player, "dig_all_depths"):
+        item_config["Leaf"] = item_config["Leaf"] + 5
+        item_config["Sprout"] = item_config["Sprout"] + 3
+        item_config["Trefoil"] = item_config["Trefoil"] + 2
+        item_config["Alpha Stop Drop +"] = item_config["Alpha Stop Drop +"] + 10
+
+
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage

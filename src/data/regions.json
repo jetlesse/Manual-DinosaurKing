@@ -1,18 +1,71 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
-    "ExampleRegion":{
-        "connects_to": ["Second Region"],
-        "requires": "|Ryu| or {YamlCompare(Example_Range >= example )}",
-        "starting": true
+    "Euro Town": {
+        "starting": true,
+        "connects_to": ["North Euro Plain", "South Euro Plain", "Gobi Village", "Dustberg", "Polar Point"]
     },
-    "Second Region": {
-        "requires": "|@Characters:1|",
-        "connects_to": ["Third Region"],
-        "exit_requires": {
-            "Third Region": "|@Characters:5|"
-        }
+    "North Euro Plain": {
+        "connects_to": ["North Mine", "North Dig Site"]
     },
-    "Third Region": {
-        "connects_to": []
+    "North Mine": {
+
+    },
+    "North Dig Site": {
+        "requires": "({YamlDisabled(require_dungeon_keys)} or |North Dig Site Key|) and |Defeat North Mine|"
+    },
+    "South Euro Plain": {
+        "connects_to": ["Old South Coal Mine"],
+        "requires": "|Defeat Laura|"
+    },
+    "Old South Coal Mine": {
+        "requires": "{YamlDisabled(require_dungeon_keys)} or |Old South Coal Mine Key|"
+    },
+    "Gobi Village": {
+        "connects_to": ["South Gobi Plain", "East Gobi Plain"],
+        "requires": "|Defeat Ed|"
+    },
+    "South Gobi Plain": {
+        "connects_to": ["Darkwood Forest"]
+    },
+    "Darkwood Forest": {
+        "requires": "{YamlDisabled(require_dungeon_keys)} or |Darkwood Forest Key|"
+    },
+    "East Gobi Plain": {
+        "connects_to": ["Wanderwood Forest"],
+        "requires": "|Defeat Rod|"
+    },
+    "Wanderwood Forest": {
+        "requires": "({YamlDisabled(require_dungeon_keys)} or |Wanderwood Forest Key|) and |Progressive Drill|"
+    },
+    "Dustberg": {
+        "connects_to": ["West Dust Hills", "South Dust Hills"],
+        "requires": "|Defeat Zander|"
+    },
+    "West Dust Hills": {
+        "connects_to": ["Alpha Gang Depot"]
+    },
+    "Alpha Gang Depot": {
+        "requires": "{YamlDisabled(require_dungeon_keys)} or |Alpha Gang Depot Key|"
+    },
+    "South Dust Hills": {
+        "connects_to": ["Alpha Gang Base", "Alpha Gang Warehouse"],
+        "requires": "|Defeat Depot|"
+    },
+    "Alpha Gang Base": {
+        "requires": "{YamlDisabled(require_dungeon_keys)} or |Alpha Gang Base Key|"
+    },
+    "Alpha Gang Warehouse": {
+        "requires": "|Defeat Ursula| and ({YamlDisabled(require_dungeon_keys)} or |Alpha Gang Warehouse Key|)"
+    },
+    "Polar Point": {
+        "connects_to": ["Alpha Gang Headquarters"],
+        "requires": "|Defeat Seth|"
+    },
+    "Alpha Gang Headquarters": {
+        "connects_to": ["Command Center"],
+        "requires": "{YamlDisabled(require_dungeon_keys)} or |Alpha Gang Headquarters Key|"
+    },
+    "Command Center": {
+        "requires": "|Stone Fragment:6|"
     }
 }

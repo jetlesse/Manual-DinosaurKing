@@ -2,286 +2,763 @@
 	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
     "data": [
         {
-            "name": "Example_Range decide the amount of items required for this location",
-            "requires": "{OptionCount(Item Name for OptionCount Example, Example_Range)}"
+            "name": "North Euro Plain - Map",
+            "region": "North Euro Plain",
+            "category": ["North Euro Plain"],
+            "sort-key": "10-01"
         },
         {
-            "name": "Beat the Game - Ryu",
-            "category": ["Starter Team", "Left Side"],
-            "region": "ExampleRegion"
+            "name": "North Euro Plain - Manual",
+            "region": "North Euro Plain",
+            "category": ["Fight Reward", "North Euro Plain"],
+            "sort-key": "20-01"
         },
         {
-            "name": "Beat the Game - Chun-Li",
-            "category": ["Starter Team", "Left Side"],
-            "requires": "|Chun-Li| or {YamlCompare(Example_Choice == 1)}"
+            "name": "North Euro Plain - White Fossil",
+            "region": "North Euro Plain",
+            "category": ["Dig for Fossils", "North Euro Plain"],
+            "sort-key": "30-01"
         },
         {
-            "name": "Beat the Game - Akuma",
-            "category": ["Starter Team", "Left Side"],
-            "requires": "|Akuma| or {YamlCompare(Example_Toggle != True)}"
-        },
-
-        {
-            "name": "Beat the Game - Jill",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Jill| and {ItemValue(star:5)}"
+            "name": "North Euro Plain - White Dig",
+            "region": "North Euro Plain",
+            "category": ["Dig all Depths", "North Euro Plain"],
+            "sort-key": "30-02"
         },
         {
-            "name": "Beat the Game - Shuma-Gorath",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Shuma-Gorath|",
-            "hint_entrance": "Unlock Shuma-Gorath"
+            "name": "North Euro Plain - Yellow Dig",
+            "region": "North Euro Plain",
+            "category": ["Dig all Depths", "North Euro Plain"],
+            "requires": "|Progressive Drill| and |Defeat Ed|",
+            "sort-key": "30-03"
         },
         {
-            "name": "Beat the Game - Nemesis T-Type",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Nemesis T-Type|"
+            "name": "North Euro Plain - Orange Dig",
+            "region": "North Euro Plain",
+            "category": ["Dig all Depths", "North Euro Plain"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-04"
         },
         {
-            "name": "Beat the Game - Firebrand",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Firebrand|"
+            "name": "North Mine - Map",
+            "region": "North Mine",
+            "category": ["North Mine"],
+            "sort-key": "10-01"
         },
         {
-            "name": "Beat the Game - Strider Hiryu",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Strider Hiryu|"
+            "name": "North Mine - Medium Dino Drink",
+            "region": "North Mine",
+            "category": ["North Mine"],
+            "sort-key": "10-01"
         },
         {
-            "name": "Beat the Game - Phoenix Wright",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Phoenix Wright|"
+            "name": "North Mine - White Fossil",
+            "region": "North Mine",
+            "category": ["Dig for Fossils", "North Mine"],
+            "sort-key": "30-01"
         },
         {
-            "name": "Beat the Game - Nova",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Nova|"
+            "name": "North Mine - White Dig",
+            "region": "North Mine",
+            "category": ["Dig all Depths", "North Mine"],
+            "sort-key": "30-02"
         },
         {
-            "name": "Beat the Game - Ghost Rider",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Ghost Rider|"
+            "name": "North Mine - Yellow Dig",
+            "region": "North Mine",
+            "category": ["Dig all Depths", "North Mine"],
+            "requires": "|Progressive Drill| and |Defeat Ed|",
+            "sort-key": "30-03"
         },
         {
-            "name": "Beat the Game - Hawkeye",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Hawkeye|"
+            "name": "North Mine - Orange Dig",
+            "region": "North Mine",
+            "category": ["Dig all Depths", "North Mine"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-04"
         },
         {
-            "name": "Beat the Game - Doctor Strange",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Doctor Strange|"
+            "name": "North Dig Site - Map",
+            "region": "North Dig Site",
+            "category": ["North Dig Site"],
+            "sort-key": "10-01"
         },
         {
-            "name": "Beat the Game - Chris",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Chris|"
+            "name": "North Dig Site - Workbook",
+            "region": "North Dig Site",
+            "category": ["North Dig Site"],
+            "sort-key": "10-02"
         },
         {
-            "name": "Beat the Game - Arthur",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Arthur|"
+            "name": "Defeat Laura",
+            "region": "North Dig Site",
+            "category": ["North Dig Site"],
+            "sort-key": "50-01"
         },
         {
-            "name": "Beat the Game - Frank West",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Frank West|"
+            "name": "North Dig Site - Forest Flute",
+            "region": "North Dig Site",
+            "category": ["North Dig Site"],
+            "requires": "|Defeat Laura|",
+            "sort-key": "10-03"
         },
         {
-            "name": "Beat the Game - Vergil",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Vergil|"
+            "name": "North Dig Site - White Fossil",
+            "region": "North Dig Site",
+            "category": ["Dig for Fossils", "North Dig Site"],
+            "sort-key": "30-01"
         },
         {
-            "name": "Beat the Game - Iron Fist",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Iron Fist|"
+            "name": "North Dig Site - White Dig",
+            "region": "North Dig Site",
+            "category": ["Dig all Depths", "North Dig Site"],
+            "sort-key": "30-02"
         },
         {
-            "name": "Beat the Game - Rocket Raccoon",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Rocket Raccoon|"
+            "name": "North Dig Site - Yellow Dig",
+            "region": "North Dig Site",
+            "category": ["Dig all Depths", "North Dig Site"],
+            "requires": "|Progressive Drill| and |Defeat Ed|",
+            "sort-key": "30-03"
         },
         {
-            "name": "Beat the Game - Captain America",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Captain America|"
+            "name": "North Dig Site - Orange Dig",
+            "region": "North Dig Site",
+            "category": ["Dig all Depths", "North Dig Site"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-04"
         },
         {
-            "name": "Beat the Game - Dormammu",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Dormammu|"
+            "name": "South Euro Plain - Map",
+            "region": "South Euro Plain",
+            "category": ["South Euro Plain"],
+            "sort-key": "10-01"
         },
         {
-            "name": "Beat the Game - Wesker",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Wesker|"
+            "name": "South Euro Plain - Medium Dino Drink",
+            "region": "South Euro Plain",
+            "category": ["Fight Reward", "South Euro Plain"],
+            "sort-key": "20-01"
         },
         {
-            "name": "Beat the Game - Zero",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Zero|"
+            "name": "South Euro Plain - White Fossil",
+            "region": "South Euro Plain",
+            "category": ["Dig for Fossils", "South Euro Plain"],
+            "sort-key": "30-01"
         },
         {
-            "name": "Beat the Game - Dante",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Dante|"
+            "name": "South Euro Plain - White Dig",
+            "region": "South Euro Plain",
+            "category": ["Dig all Depths", "South Euro Plain"],
+            "sort-key": "30-02"
         },
         {
-            "name": "Beat the Game - Deadpool",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Deadpool| or {YamlEnabled(free_deadpool)}"
+            "name": "South Euro Plain - Yellow Dig",
+            "region": "South Euro Plain",
+            "category": ["Dig all Depths", "South Euro Plain"],
+            "requires": "|Progressive Drill| and |Defeat Ed|",
+            "sort-key": "30-03"
         },
         {
-            "name": "Beat the Game - Wolverine",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Wolverine|"
+            "name": "South Euro Plain - Orange Dig",
+            "region": "South Euro Plain",
+            "category": ["Dig all Depths", "South Euro Plain"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-04"
         },
         {
-            "name": "Beat the Game - Iron Man",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Iron Man|"
+            "name": "Old South Coal Mine - Workbook",
+            "region": "Old South Coal Mine",
+            "category": ["Old South Coal Mine"],
+            "sort-key": "10-01"
         },
         {
-            "name": "Beat the Game - Doctor Doom",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Doctor Doom|"
+            "name": "Old South Coal Mine - Map",
+            "region": "Old South Coal Mine",
+            "category": ["Old South Coal Mine"],
+            "sort-key": "10-02"
         },
         {
-            "name": "Beat the Game - Morrigan",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Morrigan|"
+            "name": "Defeat Ed",
+            "region": "Old South Coal Mine",
+            "category": ["Old South Coal Mine"],
+            "sort-key": "50-01"
         },
         {
-            "name": "Beat the Game - Tron",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Tron|"
+            "name": "Old South Coal Mine - White Fossil",
+            "region": "Old South Coal Mine",
+            "category": ["Dig for Fossils", "Old South Coal Mine"],
+            "sort-key": "30-01"
         },
         {
-            "name": "Beat the Game - Trish",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Trish|"
+            "name": "Old South Coal Mine - White Dig",
+            "region": "Old South Coal Mine",
+            "category": ["Dig all Depths", "Old South Coal Mine"],
+            "sort-key": "30-02"
         },
         {
-            "name": "Beat the Game - X-23",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|X-23|"
+            "name": "Old South Coal Mine - Yellow Dig",
+            "region": "Old South Coal Mine",
+            "category": ["Dig all Depths", "Old South Coal Mine"],
+            "requires": "|Progressive Drill| and |Defeat Ed|",
+            "sort-key": "30-03"
         },
         {
-            "name": "Beat the Game - Storm",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Storm|"
+            "name": "Old South Coal Mine - Orange Dig",
+            "region": "Old South Coal Mine",
+            "category": ["Dig all Depths", "Old South Coal Mine"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-04"
         },
         {
-            "name": "Beat the Game - Thor",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Thor|"
+            "name": "South Gobi Plain - Map",
+            "region": "South Gobi Plain",
+            "category": ["South Gobi Plain"],
+            "sort-key": "10-01"
         },
         {
-            "name": "Beat the Game - M.O.D.O.K.",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|M.O.D.O.K.|"
+            "name": "South Gobi Plain - Stone Weight",
+            "region": "South Gobi Plain",
+            "category": ["Fight Reward", "South Gobi Plain"],
+            "sort-key": "20-01"
         },
         {
-            "name": "Beat the Game - Felicia",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Felicia|"
+            "name": "South Gobi Plain - Alpha Call Drop",
+            "region": "South Gobi Plain",
+            "category": ["South Gobi Plain"],
+            "_comment": "Chest in bottom left of map",
+            "sort-key": "10-02"
         },
         {
-            "name": "Beat the Game - Spencer",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Spencer|"
+            "name": "South Gobi Plain - Yellow Fossil",
+            "region": "South Gobi Plain",
+            "category": ["Dig for Fossils", "South Gobi Plain"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-01"
         },
         {
-            "name": "Beat the Game - Viewtiful Joe",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Viewtiful Joe|"
+            "name": "South Gobi Plain - White Dig",
+            "region": "South Gobi Plain",
+            "category": ["Dig all Depths", "South Gobi Plain"],
+            "sort-key": "30-02"
         },
         {
-            "name": "Beat the Game - Spider-Man",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Spider-Man|",
-            "prehint": true
+            "name": "South Gobi Plain - Yellow Dig",
+            "region": "South Gobi Plain",
+            "category": ["Dig all Depths", "South Gobi Plain"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-03"
         },
         {
-            "name": "Beat the Game - Sentinel",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Sentinel|"
+            "name": "South Gobi Plain - Orange Dig",
+            "region": "South Gobi Plain",
+            "category": ["Dig all Depths", "South Gobi Plain"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-04"
         },
         {
-            "name": "Beat the Game - Hulk",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Hulk|"
+            "name": "Darkwood Forest - Map",
+            "region": "Darkwood Forest",
+            "category": ["Darkwood Forest"],
+            "sort-key": "10-01"
         },
         {
-            "name": "Beat the Game - Super-Skrull",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Super-Skrull|"
+            "name": "Darkwood Forest - Alpha Call Drop",
+            "region": "Darkwood Forest",
+            "category": ["Darkwood Forest"],
+            "sort-key": "10-02"
         },
         {
-            "name": "Beat the Game - Hsien-Ko",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Hsien-Ko|"
+            "name": "Darkwood Forest - Medium Dino Drink",
+            "region": "Darkwood Forest",
+            "category": ["Darkwood Forest"],
+            "sort-key": "10-03"
         },
         {
-            "name": "Beat the Game - Haggar",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Haggar|"
+            "name": "Darkwood Forest - Manual",
+            "region": "Darkwood Forest",
+            "category": ["Darkwood Forest"],
+            "sort-key": "10-04"
         },
         {
-            "name": "Beat the Game - C. Viper",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|C. Viper|"
+            "name": "Defeat Rod",
+            "region": "Darkwood Forest",
+            "category": ["Darkwood Forest"],
+            "sort-key": "50-01"
         },
         {
-            "name": "Beat the Game - Amaterasu",
-            "category": ["Unlocked Teams", "Left Side"],
-            "requires": "|Amaterasu|"
+            "name": "Darkwood Forest - Forest Tree Charm",
+            "region": "Darkwood Forest",
+            "category": ["Darkwood Forest"],
+            "requires": "|Defeat Rod|",
+            "sort-key": "10-05"
         },
         {
-            "name": "Beat the Game - Phoenix",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Phoenix|"
+            "name": "Darkwood Forest - Yellow Fossil",
+            "region": "Darkwood Forest",
+            "category": ["Dig for Fossils", "Darkwood Forest"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-01"
         },
         {
-            "name": "Beat the Game - Magneto",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Magneto|"
+            "name": "Darkwood Forest - White Dig",
+            "region": "Darkwood Forest",
+            "category": ["Dig all Depths", "Darkwood Forest"],
+            "sort-key": "30-02"
         },
         {
-            "name": "Beat the Game - She-Hulk",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|She-Hulk|"
+            "name": "Darkwood Forest - Yellow Dig",
+            "region": "Darkwood Forest",
+            "category": ["Dig all Depths", "Darkwood Forest"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-03"
         },
         {
-            "name": "Beat the Game - Taskmaster",
-            "category": ["Unlocked Teams", "Right Side"],
-            "requires": "|Taskmaster|"
+            "name": "Darkwood Forest - Orange Dig",
+            "region": "Darkwood Forest",
+            "category": ["Dig all Depths", "Darkwood Forest"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-04"
         },
-
         {
-            "name": "We Saved the World!",
+            "name": "East Gobi Plain - Map",
+            "region": "East Gobi Plain",
+            "category": ["East Gobi Plain"],
+            "sort-key": "10-01"
+        },
+        {
+            "name": "East Gobi Plain - Medium Dino Drink",
+            "region": "East Gobi Plain",
+            "category": ["East Gobi Plain"],
+            "sort-key": "10-02"
+        },
+        {
+            "name": "East Gobi Plain - Advanced Workbook",
+            "region": "East Gobi Plain",
+            "category": ["East Gobi Plain"],
+            "sort-key": "10-03"
+        },
+        {
+            "name": "East Gobi Plain - Manual",
+            "region": "East Gobi Plain",
+            "category": ["Fight Reward", "East Gobi Plain"],
+            "sort-key": "20-01"
+        },
+        {
+            "name": "East Gobi Plain - Yellow Fossil",
+            "region": "East Gobi Plain",
+            "category": ["Dig for Fossils", "East Gobi Plain"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-01"
+        },
+        {
+            "name": "East Gobi Plain - White Dig",
+            "region": "East Gobi Plain",
+            "category": ["Dig all Depths", "East Gobi Plain"],
+            "sort-key": "30-02"
+        },
+        {
+            "name": "East Gobi Plain - Yellow Dig",
+            "region": "East Gobi Plain",
+            "category": ["Dig all Depths", "East Gobi Plain"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-03"
+        },
+        {
+            "name": "East Gobi Plain - Orange Dig",
+            "region": "East Gobi Plain",
+            "category": ["Dig all Depths", "East Gobi Plain"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-04"
+        },
+        {
+            "name": "Wanderwood Forest - Medium Dino Drink",
+            "region": "Wanderwood Forest",
+            "category": ["Wanderwood Forest"],
+            "sort-key": "10-01"
+        },
+        {
+            "name": "Wanderwood Forest - Map",
+            "region": "Wanderwood Forest",
+            "category": ["Wanderwood Forest"],
+            "sort-key": "10-02"
+        },
+        {
+            "name": "Wanderwood Forest - Alpha Call Drop",
+            "region": "Wanderwood Forest",
+            "category": ["Wanderwood Forest"],
+            "sort-key": "10-03"
+        },
+        {
+            "name": "Wanderwood Forest - Manual",
+            "region": "Wanderwood Forest",
+            "category": ["Fight Reward", "Wanderwood Forest"],
+            "sort-key": "20-01"
+        },
+        {
+            "name": "Defeat Zander",
+            "region": "Wanderwood Forest",
+            "category": ["Wanderwood Forest"], 
+            "sort-key": "50-01"
+        },
+        {
+            "name": "Wanderwood Forest - Yellow Fossil",
+            "region": "Wanderwood Forest",
+            "category": ["Dig for Fossils", "Wanderwood Forest"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-01"
+        },
+        {
+            "name": "Wanderwood Forest - White Dig",
+            "region": "Wanderwood Forest",
+            "category": ["Dig all Depths", "Wanderwood Forest"],
+            "sort-key": "30-02"
+        },
+        {
+            "name": "Wanderwood Forest - Yellow Dig",
+            "region": "Wanderwood Forest",
+            "category": ["Dig all Depths", "Wanderwood Forest"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-03"
+        },
+        {
+            "name": "Wanderwood Forest - Orange Dig",
+            "region": "Wanderwood Forest",
+            "category": ["Dig all Depths", "Wanderwood Forest"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-04"
+        },
+        {
+            "name": "West Dust Hills - Workbook",
+            "region": "West Dust Hills",
+            "category": ["West Dust Hills"],
+            "sort-key": "10-01"
+        },
+        {
+            "name": "West Dust Hills - Map",
+            "region": "West Dust Hills",
+            "category": ["West Dust Hills"],
+            "sort-key": "10-02"
+        },
+        {
+            "name": "West Dust Hills - Manual",
+            "region": "West Dust Hills",
+            "category": ["Fight Reward", "West Dust Hills"],
+            "sort-key": "20-01"
+        },
+        {
+            "name": "West Dust Hills - Alpha Call Drop",
+            "region": "West Dust Hills",
+            "category": ["West Dust Hills"],
+            "sort-key": "10-03"
+        },
+        {
+            "name": "West Dust Hills - Orange Fossil",
+            "region": "West Dust Hills",
+            "category": ["Dig for Fossils", "West Dust Hills"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-01"
+        },
+        {
+            "name": "West Dust Hills - White Dig",
+            "region": "West Dust Hills",
+            "category": ["Dig all Depths", "West Dust Hills"],
+            "sort-key": "30-02"
+        },
+        {
+            "name": "West Dust Hills - Yellow Dig",
+            "region": "West Dust Hills",
+            "category": ["Dig all Depths", "West Dust Hills"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-03"
+        },
+        {
+            "name": "West Dust Hills - Orange Dig",
+            "region": "West Dust Hills",
+            "category": ["Dig all Depths", "West Dust Hills"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-04"
+        },
+        {
+            "name": "Alpha Gang Depot - Map",
+            "region": "Alpha Gang Depot",
+            "category": ["Alpha Gang Depot"],
+            "sort-key": "10-01"
+        },
+        {
+            "name": "Alpha Gang Depot - Medium Dino Drink",
+            "region": "Alpha Gang Depot",
+            "category": ["Alpha Gang Depot"],
+            "sort-key": "10-02"
+        },
+        {
+            "name": "Defeat Depot",
+            "region": "Alpha Gang Depot",
+            "category": ["Alpha Gang Depot"],
+            "sort-key": "50-01"
+        },
+        {
+            "name": "Alpha Gang Depot - Orange Fossil",
+            "region": "Alpha Gang Depot",
+            "category": ["Dig for Fossils", "Alpha Gang Depot"],
+            "requires": "|Progressive Drill:2| and |Defeat Depot|",
+            "sort-key": "30-01"
+        },
+        {
+            "name": "Alpha Gang Depot - White Dig",
+            "region": "Alpha Gang Depot",
+            "category": ["Dig all Depths", "Alpha Gang Depot"],
+            "sort-key": "30-02"
+        },
+        {
+            "name": "Alpha Gang Depot - Yellow Dig",
+            "region": "Alpha Gang Depot",
+            "category": ["Dig all Depths", "Alpha Gang Depot"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-03"
+        },
+        {
+            "name": "Alpha Gang Depot - Orange Dig",
+            "region": "Alpha Gang Depot",
+            "category": ["Dig all Depths", "Alpha Gang Depot"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "30-04"
+        },
+        {
+            "name": "South Dust Hills - Map",
+            "region": "South Dust Hills",
+            "category": ["South Dust Hills"],
+            "sort-key": "10-01"
+        },
+        {
+            "name": "South Dust Hills - Workbook",
+            "region": "South Dust Hills",
+            "category": ["Fight Reward", "South Dust Hills"],
+            "sort-key": "20-01"
+        },
+        {
+            "name": "South Dust Hills - Orange Fossil",
+            "region": "South Dust Hills",
+            "category": ["Dig for Fossils", "South Dust Hills"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "30-01"
+        },
+        {
+            "name": "South Dust Hills - White Dig",
+            "region": "South Dust Hills",
+            "category": ["Dig all Depths", "South Dust Hills"],
+            "sort-key": "30-02"
+        },
+        {
+            "name": "South Dust Hills - Yellow Dig",
+            "region": "South Dust Hills",
+            "category": ["Dig all Depths", "South Dust Hills"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-03"
+        },
+        {
+            "name": "South Dust Hills - Orange Dig",
+            "region": "South Dust Hills",
+            "category": ["Dig all Depths", "South Dust Hills"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "30-04"
+        },
+        {
+            "name": "Alpha Gang Base - Alpha Call drop",
+            "region": "Alpha Gang Base",
+            "category": ["Alpha Gang Base"],
+            "sort-key": "10-01"
+        },
+        {
+            "name": "Alpha Gang Base - Map",
+            "region": "Alpha Gang Base",
+            "category": ["Alpha Gang Base"],
+            "sort-key": "10-02"
+        },
+        {
+            "name": "Alpha Gang Base - Manual",
+            "region": "Alpha Gang Base",
+            "category": ["Alpha Gang Base"],
+            "sort-key": "10-03"
+        },
+        {
+            "name": "Defeat Ursula",
+            "region": "Alpha Gang Base",
+            "category": ["Alpha Gang Base"],
+            "sort-key": "50-01"
+        },
+        {
+            "name": "Alpha Gang Base - Orange Fossil",
+            "region": "Alpha Gang Base",
+            "category": ["Dig for Fossils", "Alpha Gang Base"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "30-01"
+        },
+        {
+            "name": "Alpha Gang Base - White Dig",
+            "region": "Alpha Gang Base",
+            "category": ["Dig all Depths", "Alpha Gang Base"],
+            "sort-key": "30-02"
+        },
+        {
+            "name": "Alpha Gang Base - Yellow Dig",
+            "region": "Alpha Gang Base",
+            "category": ["Dig all Depths", "Alpha Gang Base"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-03"
+        },
+        {
+            "name": "Alpha Gang Base - Orange Dig",
+            "region": "Alpha Gang Base",
+            "category": ["Dig all Depths", "Alpha Gang Base"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "30-04"
+        },
+        {
+            "name": "Alpha Gang Warehouse - Ultimate Manual",
+            "region": "Alpha Gang Warehouse",
+            "category": ["Alpha Gang Warehouse"],
+            "sort-key": "10-01"
+        },
+        {
+            "name": "Alpha Gang Warehouse - Map",
+            "region": "Alpha Gang Warehouse",
+            "category": ["Alpha Gang Warehouse"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "10-02"
+        },
+        {
+            "name": "Alpha Gang Warehouse - Large Dino Drink",
+            "region": "Alpha Gang Warehouse",
+            "category": ["Alpha Gang Warehouse"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "10-03"
+        },
+        {
+            "name": "Defeat Seth",
+            "region": "Alpha Gang Warehouse",
+            "category": ["Alpha Gang Warehouse"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "50-01"
+        },
+        {
+            "name": "Alpha Gang Warehouse - Orange Fossil",
+            "region": "Alpha Gang Warehouse",
+            "category": ["Dig for Fossils", "Alpha Gang Warehouse"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "30-01"
+        },
+        {
+            "name": "Alpha Gang Warehouse - White Dig",
+            "region": "Alpha Gang Warehouse",
+            "category": ["Dig all Depths", "Alpha Gang Warehouse"],
+            "sort-key": "30-02"
+        },
+        {
+            "name": "Alpha Gang Warehouse - Yellow Dig",
+            "region": "Alpha Gang Warehouse",
+            "category": ["Dig all Depths", "Alpha Gang Warehouse"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-03"
+        },
+        {
+            "name": "Alpha Gang Warehouse - Orange Dig",
+            "region": "Alpha Gang Warehouse",
+            "category": ["Dig all Depths", "Alpha Gang Warehouse"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "30-04"
+        },
+        {
+            "name": "Polar Point - Map",
+            "region": "Polar Point",
+            "category": ["Polar Point"],
+            "sort-key": "10-01"
+        },
+        {
+            "name": "Polar Point - Book of Mastery",
+            "region": "Polar Point",
+            "category": ["Polar Point"],
+            "sort-key": "10-02"
+        },
+        {
+            "name": "Polar Point - Orange Fossil",
+            "region": "Polar Point",
+            "category": ["Dig for Fossils", "Polar Point"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "30-01"
+        },
+        {
+            "name": "Polar Point - White Dig",
+            "region": "Polar Point",
+            "category": ["Dig all Depths", "Polar Point"],
+            "sort-key": "30-02"
+        },
+        {
+            "name": "Polar Point - Yellow Dig",
+            "region": "Polar Point",
+            "category": ["Dig all Depths", "Polar Point"],
+            "requires": "|Progressive Drill|",
+            "sort-key": "30-03"
+        },
+        {
+            "name": "Polar Point - Orange Dig",
+            "region": "Polar Point",
+            "category": ["Dig all Depths", "Polar Point"],
+            "requires": "|Progressive Drill:2|",
+            "sort-key": "30-04"
+        },
+        {
+            "name": "Alpha Gang Headquarters - Ultimate Manual",
+            "region": "Alpha Gang Headquarters",
+            "category": ["Alpha Gang Headquarters"],
+            "_comment": "Top left",
+            "sort-key": "10-01"
+        },
+        {
+            "name": "Alpha Gang Headquarters - Map",
+            "region": "Alpha Gang Headquarters",
+            "category": ["Alpha Gang Headquarters"],
+            "_comment": "Middle left",
+            "sort-key": "10-02"
+        },
+        
+        {
+            "name": "Alpha Gang Headquarters - Manual",
+            "region": "Alpha Gang Headquarters",
+            "category": ["Alpha Gang Headquarters"],
+            "_comment": "Middle right",
+            "sort-key": "10-03"
+        },
+        {
+            "name": "Alpha Gang Headquarters - Large Dino Drink",
+            "region": "Alpha Gang Headquarters",
+            "category": ["Alpha Gang Headquarters"],
+            "_comment": "Bottom right",
+            "sort-key": "10-04"
+        },
+        {
+            "name": "Alpha Gang Headquarters - Left Chest",
+            "region": "Alpha Gang Headquarters",
+            "category": ["Alpha Gang Headquarters"],
+            "sort-key": "10-05"
+        },
+        {
+            "name": "Alpha Gang Headquarters - Right Chest",
+            "region": "Alpha Gang Headquarters",
+            "category": ["Alpha Gang Headquarters"],
+            "sort-key": "10-06"
+        },
+        {
+            "name": "Command Center - Map",
+            "region": "Command Center",
+            "category": ["Command Center"],
+            "sort-key": "10-01"
+        },
+        {
+            "name": "Defeat Dr. Z",
             "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|Marvel event| and |Capcom event|"
-        },
-        {
-            "name": "Marvel%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|Marvel event|"
-        },
-        {
-            "name": "Capcom%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "|Capcom event|"
-        },
-        {
-            "name": "Stars%",
-            "victory": true,
-            "category": ["All Characters Complete!"],
-            "requires": "{ItemValue(star:10)} and {ItemValue(coins:10)}"
+            "region": "Command Center",
+            "category": ["Command Center"]
         }
     ]
 }

@@ -2,17 +2,42 @@
 	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
     "data": [
         {
-            "name": "Marvel event",
-            "requires": "|@Right Side:all|",
-            "visible": true
+            "name": "Defeat North Mine",
+            "region": "North Mine"
         },
         {
-            "name": "Capcom event",
-            "requires": "|@Left Side:all|"
+            "name": "Defeat Laura",
+            "region": "North Dig Site",
+            "copy_location": "Defeat Laura"
         },
         {
-            "name": "Stars_event",
-            "copy_location": "Stars%"
+            "name": "Defeat Ed",
+            "region": "Old South Coal Mine",
+            "copy_location": "Defeat Ed"
+        },
+        {
+            "name": "Defeat Rod",
+            "region": "Darkwood Forest",
+            "copy_location": "Defeat Rod"
+        },
+        {
+            "name": "Defeat Zander",
+            "region": "Wanderwood Forest",
+            "copy_location": "Defeat Zander"
+        },
+        {
+            "name": "Defeat Depot",
+            "region": "Alpha Gang Depot"
+        },
+        {
+            "name": "Defeat Ursula",
+            "region": "Alpha Gang Base",
+            "copy_location": "Defeat Ursula"
+        },
+        {
+            "name": "Defeat Seth",
+            "region": "Alpha Gang Warehouse",
+            "copy_location": "Defeat Seth"
         }
     ]
 }

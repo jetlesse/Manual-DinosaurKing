@@ -1,9 +1,86 @@
 {
     "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
-    "Example Logic only category": {
-        "hidden": true
+    "Fight Reward": {
+        "yaml_option": ["enable_fight_rewards"],
+        "hidden": true,
+        "_comment": "Rewards given directly for saving someone from a robot. Not for chests behind a fight."
     },
-    "Example Yaml-option category": {
-        "yaml_option": ["DLC_enabled"]
+    "Dig for Fossils": {
+        "yaml_option": ["dig_fossil"],
+        "hidden": true,
+        "_comment": "Dig for a fossil in the area."
+    },
+    "Dig all Depths": {
+        "yaml_option": ["dig_all_depths"],
+        "hidden": true,
+        "_comment": "Dig once for each depth in each area (white yellow and orange)."
+    },
+    "Dungeon Key": {
+        "yaml_option": ["require_dungeon_keys"],
+        "_comment": "Require a Dungeon key item to be given to enter a dungeon."
+    },
+    "Upgrade Moves": {
+        "yaml_option": ["block_upgrade_moves"],
+        "_comment": "Require an item to upgrade moves from the base version (locks 4th move behind an item)."
+    },
+    "Euro Town": {
+
+    },
+    "North Euro Plain": {
+
+    },
+    "North Mine": {
+
+    },
+    "North Dig Site": {
+
+    },
+    "South Euro Plain": {
+
+    },
+    "Old South Coal Mine": {
+
+    },
+    "Gobi Village": {
+
+    },
+    "South Gobi Plain": {
+
+    },
+    "Darkwood Forest": {
+
+    },
+    "East Gobi Plain": {
+
+    },
+    "Wanderwood Forest": {
+
+    },
+    "Dustberg": {
+
+    },
+    "West Dust Hills": {
+
+    },
+    "Alpha Gang Depot": {
+
+    },
+    "South Dust Hills": {
+
+    },
+    "Alpha Gang Base": {
+
+    },
+    "Alpha Gang Warehouse": {
+
+    },
+    "Polar Point": {
+
+    },
+    "Alpha Gang Headquarters": {
+
+    },
+    "Command Center": {
+
     }
 }
